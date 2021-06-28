@@ -23,7 +23,6 @@ public class GEditMenu extends JMenu {
 	@SuppressWarnings("deprecation")
 	public GEditMenu(String text) {
 	
-
 		super(text);
 		ActionHandler actionHandler = new ActionHandler();
 		for (EEditMenuItem1 eEditMenuItem : EEditMenuItem1.values()) {
@@ -47,7 +46,6 @@ public class GEditMenu extends JMenu {
 	}
 	public void setAssociation(GPanel panel) {
 		this.panel = panel;
-
 	}
 
 
